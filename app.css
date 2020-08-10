@@ -1,0 +1,300 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+
+#header {
+	background-image: url("https://images.unsplash.com/photo-1588420343618-6141b3784bce?ixlib=rb-1.2.1&w=1000&q=80");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 60px;
+	border-bottom-left-radius: 8%;
+	border-bottom-right-radius: 8%;
+	margin-bottom: 20px;
+}
+
+#mainNavbar .navbar-brand {
+	color: white;
+	font-weight: 700;
+	font-size: 17px;
+}
+
+#mainNavbar li a{
+	color: white;
+	font-size: 14px;
+	margin: 3px 25px;
+	font-weight: 400;
+}
+
+#mainNavbar #handles {
+	margin-left: 35px;
+}
+
+#mainNavbar #handles a i{
+   margin: 0 8px;
+}
+
+#header .content {
+	display: flex;
+	flex-direction: row;
+	margin-top: 100px;
+}
+
+#header .content img {
+	width: 550px;
+	height: 550px;
+	border-radius: 50%;
+}
+
+#header .content .main {
+	margin-top: 100px;
+}
+
+#header p {
+	color: white;
+	width: 300px;
+	font-size: 13px;
+	margin-top: 30px;
+}
+
+#header #buttons a {
+	color: white;
+	font-size: 12px;
+	font-weight: 600;
+	padding: 8px 15px;
+	border-radius: 5px;
+}
+
+#buttons .btn1 {
+	background-color: coral;
+}
+
+#buttons .btn2 {
+	background-color: blue;
+}
+
+#header .content h1 {
+	color: white;
+	font-weight: 700;
+	width: 500px;
+}
+
+.features {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 90px;
+}
+
+.features h4, .widgets h4, .cloudy h4 {
+	font-weight: 700;
+	color: #5C3DF5;
+	font-size: 20px;
+}
+
+.features .grid {
+	display: flex;
+}
+
+.features .grid .item {
+	display: flex;
+	margin: 60px 30px;
+}
+
+.features p, .widgets p {
+    font-size: 12px;
+    color: gray;
+    font-weight: 500;
+}
+
+.features .grid h5 {
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.features .grid p {
+	font-size: 11px;
+	color: gray;
+	width: 190px;
+}
+
+.features i {
+	color: #EB741A;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+
+.widgets {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 90px;
+}
+
+.widgets img {
+	width: 800px;
+	height: 500px;
+	margin-top: 20px;
+}
+
+.cloudy .container, .sun .container, .rain .container{
+	display: flex;
+	flex-direction: row;
+	margin-top: 100px;
+}
+
+.cloudy img, .rain img {
+	width: 370px;
+	height: 500px;
+	margin-left: 120px;
+}
+
+.cloudy .main, .sun .main, .rain .main{
+	margin-top: 80px;
+	margin-left: 60px;
+}
+
+.cloudy .main p, .sun .main p, .rain .main p {
+   width: 400px;
+   font-size: 16px;
+   margin-bottom: 30px;
+   margin-top: 20px;
+}
+
+.cloudy .main img, .sun .main img, .rain .main img {
+	width: 120px;
+    height: 60px;
+}
+
+.sun img {
+	width: 370px;
+	height: 500px;
+	margin-right: 60px;
+}
+
+.sun .main {
+	margin-top: 80px;
+	margin-left: 190px;
+}
+
+.testimonials {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 50px;
+}
+
+.testimonials h4 {
+	font-weight: 700;
+	color: #5C3DF5;
+	font-size: 20px;
+}
+
+.testimonials p {
+	font-size: 12px;
+    color: gray;
+    font-weight: 500;
+}
+
+.testimonials .views{
+   display: flex;
+   flex-wrap: wrap;
+   margin-left: 250px;
+}
+
+.testimonials .views .item {
+	margin-right: 30px;
+}
+
+.testimonials .views p {
+	width: 400px;
+	margin-top: 10px;
+	font-size: 16px;
+	color: gray;
+	margin-bottom: 10px;
+}
+
+.testimonials #author {
+	font-size: 12px;
+	color: black;
+}
+
+.testimonials i {
+	color: #5C3DF5;
+	margin: 10px 0;
+}
+
+.testimonials #right {
+	margin-left: 340px;
+}
+
+.download .container {
+	display: flex;
+	padding-top: 70px;
+	padding-left: 100px;
+}
+
+.download .main p {
+	color: white;
+	font-size: 15px;
+	width: 350px;
+}
+
+.download h4 {
+	color: white;
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+.download img {
+	width: 550px;
+	height: 260px;
+	border-radius: 20px;
+}
+
+.download .main img {
+	width: 100px;
+	height: 50px;
+	margin-top: 0;
+	margin-left: -10px;
+}
+
+footer {
+	background-color: #2A2A5B;
+	padding-bottom: 40px;
+}
+
+footer .container {
+	padding-top: 70px;
+	padding-left: 100px;
+	display: flex;
+}
+
+footer .container p {
+   font-weight: 700;
+   font-size: 18px;
+   color: #5C3DF5;
+}
+
+footer ul {
+	list-style: none;
+	display: flex;
+	margin-left: 100px;
+}
+
+footer ul li {
+	font-size: 13px;
+	margin: 0 35px;
+	color: gray;
+}
+
+footer ul li a {
+	color: gray;
+}
+
+footer ul li i {
+	margin: 0 10px;
+}
