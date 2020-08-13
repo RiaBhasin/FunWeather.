@@ -60,7 +60,7 @@
 @media (max-width: 1000px) {
 	#header .content {
 		flex-direction: column;
-		margin-left: 20%;
+		margin-left: 5px;
 	}
 	#header .content img {
 		width: 250px;
@@ -68,7 +68,7 @@
 		margin-top: 50px;
 	}
 	#header #arrow {
-		margin-left: 45%;
+		margin-left: 30%;
 	}
 }
 
@@ -226,6 +226,11 @@
 	.sun .container .main {
 		order: 2;
 	}
+
+	#rainy, #cloud, #sunny {
+         height: 370px;
+        width: 300px;
+	}
 }
 
 .testimonials {
@@ -321,11 +326,12 @@
 @media (max-width: 1000px) {
 	.download .container {
 		flex-direction: column;
+		margin-left: 5px;
 	}
 
 	.download .container #down {
 		width: 100%;
-		height: 250px;
+		height: 200px;
 		margin-left: -10%;
 	}
 }
